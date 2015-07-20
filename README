@@ -1,0 +1,12 @@
+Relatively simple implementation of the classic FizzBuzz interview question in
+C++. Refactored to be testable and flexible enough to solve slight alterations
+to the FizzBuzz problem. This refactoring could be taken much further, but .
+
+The source code is broken up into the directories described below. Overkill for
+this small project, but the cleanest method as the unit tests need their own
+main prog and can't exist in the same project.
+
+Directory structure:
+fizzbuzz/ - Implementation of FizzBuzz algorithm in DivisibleCheck class
+fizzbuzz-main/ - Simple main prog that sets up and uses DivisibleCheck
+fizzbuzz-test/ - Unit tests written for DivisibleCheck using google-test
